@@ -1,0 +1,40 @@
+version: '2'
+services:
+  web1:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - "./code/:/code"
+#      - "/mnt/sites/:/code/"
+      - "./default.conf:/etc/nginx/conf.d/default.conf"
+      - "./log/:/var/log/nginx/"
+    links:
+      - php72e
+  web2:
+    image: nginx:latest
+    ports:
+      - "81:80"
+    volumes:
+      - "./code/:/code"
+#      - "/mnt/sites/:/code/"
+      - "./default56.conf:/etc/nginx/conf.d/default.conf"
+      - "./log/:/var/log/nginx/"
+    links:
+      - php56e
+  php56e:
+    #image: php:7-fpm
+    build: 
+      context: ./php-fpm56
+      dockerfile: Dockerfile
+    volumes:
+      - "./code/:/code"
+#      - "/mnt/sites/:/code/"
+  php72e:
+    #image: php:7-fpm
+    build: 
+      context: ./php-fpm72
+      dockerfile: Dockerfile
+    volumes:
+      - "./code/:/code"
+#      - "/mnt/sites/:/code/"

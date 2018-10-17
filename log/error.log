@@ -1,0 +1,16 @@
+2018/10/14 15:36:03 [error] 6#6: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost"
+2018/10/14 15:36:05 [error] 6#6: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost"
+2018/10/14 15:37:03 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2018/10/14 16:20:55 [error] 6#6: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost"
+2018/10/14 16:51:31 [error] 6#6: *1 directory index of "/code/" is forbidden, client: 172.20.0.1, server: php-docker.local, request: "GET / HTTP/1.1", host: "localhost"
+2018/10/14 16:55:38 [error] 6#6: *2 "/code/amp/index.php" is not found (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /amp/ HTTP/1.1", host: "localhost"
+2018/10/14 16:55:55 [error] 6#6: *2 open() "/code/amp/index.html" failed (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /amp/index.html HTTP/1.1", host: "localhost"
+2018/10/14 19:18:06 [error] 6#6: *1 directory index of "/code/" is forbidden, client: 172.20.0.1, server: php-docker.local, request: "GET / HTTP/1.1", host: "localhost"
+2018/10/14 19:18:06 [error] 6#6: *1 open() "/code/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/10/14 19:18:06 [error] 6#6: *1 open() "/code/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/10/14 19:47:58 [error] 6#6: *1 directory index of "/code/" is forbidden, client: 172.20.0.1, server: php-docker.local, request: "GET / HTTP/1.1", host: "localhost"
+2018/10/14 21:39:31 [error] 6#6: *1 open() "/code/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81"
+2018/10/14 21:39:31 [error] 6#6: *1 open() "/code/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: php-docker.local, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81"
+2018/10/14 21:58:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:11
+2018/10/15 23:25:04 [emerg] 1#1: host not found in upstream "php72e" in /etc/nginx/conf.d/default.conf:11
+2018/10/15 23:29:54 [emerg] 1#1: host not found in upstream "php72e" in /etc/nginx/conf.d/default.conf:11
